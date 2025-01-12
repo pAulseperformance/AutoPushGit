@@ -3,6 +3,9 @@
 # Navigate to your repository
 cd /AutoPushGit
 
+# Create or update a file with the current date and time
+echo "Auto-update at: $(date)" >> auto_update_log.txt
+
 # Add all changes
 git add .
 
